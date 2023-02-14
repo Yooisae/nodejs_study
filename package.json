@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs study",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yooisae/nodejs_study.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Yooisae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yooisae/nodejs_study/issues"
+  },
+  "homepage": "https://github.com/Yooisae/nodejs_study#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
+  }
+}
